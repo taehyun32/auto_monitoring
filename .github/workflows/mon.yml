@@ -3,7 +3,7 @@ name: 자동 모니터링
 on:
     workflow_dispatch:
     schedule:
-        - cron: "*/5 * * * *"  # 매 5분마다 실행 (보장 안됨)
+        - cron: "* */6 * * *"  # 매 5분마다 실행 (보장 안됨)
 
 jobs:
     make-file:
